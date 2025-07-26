@@ -1,0 +1,97 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1d4c1b;
+}
+
+header {
+    background: #f5c400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+header .logo {
+    font-weight: bold;
+}
+
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #1d4c1b;
+    font-weight: 500;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    background: #fff;
+}
+
+.hero .texto {
+    flex: 1;
+    min-width: 250px;
+}
+
+.hero .imagem img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.categorias {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px 20px;
+}
+
+.categoria {
+    width: 120px;
+    height: 120px;
+    background-color: #1d4c1b;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.novidades, .eventos {
+    padding: 40px 20px;
+}
+
+.cartoes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cartao {
+    background-color: #f0f0f0;
+    height: 150px;
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #1d4c1b;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    flex-wrap: wrap;
+}
+
+footer .coluna {
+    max-width: 250px;
+    margin: 10px;
+}
